@@ -59,7 +59,7 @@ export default function Home() {
 
         {/* Right side - Navigation folders */}
         {/* Mobile: horizontal row at bottom | Desktop: vertical on right */}
-        <div className="mt-auto pt-12 md:pt-0 md:mt-0 lg:self-center animate-slide-in-right delay-300">
+        <div className="mt-auto pt-6 md:pt-0 md:mt-0 lg:self-center animate-slide-in-right delay-300">
           {/* Dashed container - visible on all screens */}
           <div className="border border-dashed border-white/50 p-4 lg:p-6 rounded-sm">
             <div className="flex flex-row md:flex-col items-end justify-between md:justify-start md:items-center gap-2 md:gap-6 lg:gap-8">
