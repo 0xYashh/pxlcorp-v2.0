@@ -3,17 +3,18 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'films | pxlcorp',
-  description: 'films and videos by pxlcorp',
+  title: 'films',
+  description: 'watch films and videos created by pxlcorp - visual storytelling, short films, and creative narratives that explore ideas and emotions.',
+  keywords: ['pxlcorp films', 'short films', 'visual storytelling', 'creative videos', 'indie films'],
   openGraph: {
     title: 'films | pxlcorp',
-    description: 'films and videos by pxlcorp',
+    description: 'watch films and videos created by pxlcorp - visual storytelling and creative narratives.',
     images: ['/images/films link thumb.png'],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'films | pxlcorp',
-    description: 'films and videos by pxlcorp',
+    description: 'watch films and videos created by pxlcorp - visual storytelling and creative narratives.',
     images: ['/images/films link thumb.png'],
   },
 }

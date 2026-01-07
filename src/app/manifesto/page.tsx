@@ -3,17 +3,18 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'the manifesto | pxlcorp',
-  description: 'the pxlcorp manifesto - how we think and build',
+  title: 'the manifesto',
+  description: 'the pxlcorp manifesto - we believe story comes before scale, clarity before features, and meaning before metrics. learn how we think and build.',
+  keywords: ['pxlcorp manifesto', 'creative philosophy', 'building in public', 'story before scale', 'meaningful products'],
   openGraph: {
     title: 'the manifesto | pxlcorp',
-    description: 'the pxlcorp manifesto - how we think and build',
+    description: 'the pxlcorp manifesto - we believe story comes before scale. learn how we think and build.',
     images: ['/images/manifesto link thumb.png'],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'the manifesto | pxlcorp',
-    description: 'the pxlcorp manifesto - how we think and build',
+    description: 'the pxlcorp manifesto - we believe story comes before scale. learn how we think and build.',
     images: ['/images/manifesto link thumb.png'],
   },
 }

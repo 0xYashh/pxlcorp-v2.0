@@ -3,17 +3,18 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: "founder's note | pxlcorp",
-  description: 'a note from yash, founder of pxlcorp',
+  title: "founder's note",
+  description: "a personal note from yash, founder of pxlcorp - sharing the vision, journey, and philosophy behind building a creative lab in public.",
+  keywords: ['yash pxlcorp', 'founder story', 'creative entrepreneur', 'building in public', 'indie maker'],
   openGraph: {
     title: "founder's note | pxlcorp",
-    description: 'a note from yash, founder of pxlcorp',
+    description: "a personal note from yash, founder of pxlcorp - sharing the vision and journey behind the creative lab.",
     images: ['/images/the founder note link.png'],
   },
   twitter: {
     card: 'summary_large_image',
     title: "founder's note | pxlcorp",
-    description: 'a note from yash, founder of pxlcorp',
+    description: "a personal note from yash, founder of pxlcorp - sharing the vision and journey behind the creative lab.",
     images: ['/images/the founder note link.png'],
   },
 }

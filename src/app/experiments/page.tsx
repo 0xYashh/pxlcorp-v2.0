@@ -3,17 +3,18 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'experiments | pxlcorp',
-  description: 'experiments and projects by pxlcorp',
+  title: 'experiments',
+  description: 'explore experiments and projects by pxlcorp - innovative products, apps, and ideas being built in public.',
+  keywords: ['pxlcorp experiments', 'indie projects', 'product experiments', 'building in public', 'side projects'],
   openGraph: {
     title: 'experiments | pxlcorp',
-    description: 'experiments and projects by pxlcorp',
+    description: 'explore experiments and projects by pxlcorp - innovative products and ideas being built in public.',
     images: ['/images/the experiments link thumb.png'],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'experiments | pxlcorp',
-    description: 'experiments and projects by pxlcorp',
+    description: 'explore experiments and projects by pxlcorp - innovative products and ideas being built in public.',
     images: ['/images/the experiments link thumb.png'],
   },
 }
