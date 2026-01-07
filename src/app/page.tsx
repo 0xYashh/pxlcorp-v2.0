@@ -54,6 +54,20 @@ export default function Home() {
               </div>
               <span className="font-jersey text-white text-lg sm:text-xl md:text-lg lg:text-xl transition-colors duration-200 group-hover:text-pxl-red">founder's note.txt</span>
             </Link>
+
+            {/* Contact link */}
+            <Link href="/contact" className="file-link flex flex-col md:flex-row items-start md:items-center gap-2 md:gap-3 lg:gap-4 cursor-pointer group animate-fade-in-up delay-600">
+              <div className="w-10 h-12 md:w-8 md:h-10 lg:w-12 lg:h-14 relative flex-shrink-0">
+                <Image 
+                  src="/icons/file icon.svg" 
+                  alt="file icon"
+                  width={48}
+                  height={56}
+                  className="object-contain w-full h-full"
+                />
+              </div>
+              <span className="font-jersey text-white text-lg sm:text-xl md:text-lg lg:text-xl transition-colors duration-200 group-hover:text-pxl-red">contact.txt</span>
+            </Link>
           </div>
         </div>
 
