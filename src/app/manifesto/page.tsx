@@ -213,14 +213,14 @@ export default function Curious() {
           {/* CTA Button */}
           <div className="text-center pt-8 animate-fade-in-up delay-300">
             <Link 
-              href="#" 
+              href="https://tally.so/r/rjaK8o" 
               className="inline-block bg-pxl-red text-white font-jersey text-lg md:text-xl px-8 py-4 rounded-sm hover:bg-red-600 transition-colors"
               style={{ textTransform: 'lowercase' }}
             >
-              become part of the journey →
+              interested ? leave a signal. →
             </Link>
             <p className="font-jersey text-black/60 text-sm mt-4" style={{ textTransform: 'lowercase' }}>
-              just give us a signal. we'll get back to you soon.
+             we just want to know something from you...
             </p>
           </div>
 
