@@ -1,5 +1,22 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'contact | pxlcorp',
+  description: 'get in touch with pxlcorp',
+  openGraph: {
+    title: 'contact | pxlcorp',
+    description: 'get in touch with pxlcorp',
+    images: ['/images/contacts link.png'],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'contact | pxlcorp',
+    description: 'get in touch with pxlcorp',
+    images: ['/images/contacts link.png'],
+  },
+}
 
 export default function Contact() {
   return (

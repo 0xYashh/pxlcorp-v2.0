@@ -1,4 +1,21 @@
 import Link from 'next/link'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'reads | pxlcorp',
+  description: 'blogs and reads by pxlcorp',
+  openGraph: {
+    title: 'reads | pxlcorp',
+    description: 'blogs and reads by pxlcorp',
+    images: ['/images/the reads link thumb.png'],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'reads | pxlcorp',
+    description: 'blogs and reads by pxlcorp',
+    images: ['/images/the reads link thumb.png'],
+  },
+}
 
 export default function Reads() {
   return (

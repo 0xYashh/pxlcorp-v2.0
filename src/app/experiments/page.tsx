@@ -1,5 +1,22 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'experiments | pxlcorp',
+  description: 'experiments and projects by pxlcorp',
+  openGraph: {
+    title: 'experiments | pxlcorp',
+    description: 'experiments and projects by pxlcorp',
+    images: ['/images/the experiments link thumb.png'],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'experiments | pxlcorp',
+    description: 'experiments and projects by pxlcorp',
+    images: ['/images/the experiments link thumb.png'],
+  },
+}
 
 export default function Experiments() {
   return (

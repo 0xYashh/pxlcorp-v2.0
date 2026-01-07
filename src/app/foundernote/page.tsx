@@ -1,5 +1,22 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: "founder's note | pxlcorp",
+  description: 'a note from yash, founder of pxlcorp',
+  openGraph: {
+    title: "founder's note | pxlcorp",
+    description: 'a note from yash, founder of pxlcorp',
+    images: ['/images/the founder note link.png'],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "founder's note | pxlcorp",
+    description: 'a note from yash, founder of pxlcorp',
+    images: ['/images/the founder note link.png'],
+  },
+}
 
 export default function FoundersNote() {
   return (
