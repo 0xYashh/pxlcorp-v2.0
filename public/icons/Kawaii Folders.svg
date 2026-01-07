@@ -1,0 +1,34 @@
+<svg width="79" height="102" viewBox="0 0 79 102" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g filter="url(#filter0_n_266_4789)">
+<rect x="0.0644531" width="78" height="101" transform="rotate(0.036563 0.0644531 0)" fill="url(#pattern0_266_4789)"/>
+</g>
+<defs>
+<filter id="filter0_n_266_4789" x="0" y="0" width="78.0645" height="101.05" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feTurbulence type="fractalNoise" baseFrequency="1.25 1.25" stitchTiles="stitch" numOctaves="3" result="noise" seed="4546" />
+<feColorMatrix in="noise" type="luminanceToAlpha" result="alphaNoise" />
+<feComponentTransfer in="alphaNoise" result="coloredNoise1">
+<feFuncA type="discrete" tableValues="1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 "/>
+</feComponentTransfer>
+<feComposite operator="in" in2="shape" in="coloredNoise1" result="noise1Clipped" />
+<feComponentTransfer in="alphaNoise" result="coloredNoise2">
+<feFuncA type="discrete" tableValues="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 "/>
+</feComponentTransfer>
+<feComposite operator="in" in2="shape" in="coloredNoise2" result="noise2Clipped" />
+<feFlood flood-color="rgba(0, 0, 0, 0.25)" result="color1Flood" />
+<feComposite operator="in" in2="noise1Clipped" in="color1Flood" result="color1" />
+<feFlood flood-color="#F0FF7B" result="color2Flood" />
+<feComposite operator="in" in2="noise2Clipped" in="color2Flood" result="color2" />
+<feMerge result="effect1_noise_266_4789">
+<feMergeNode in="shape" />
+<feMergeNode in="color1" />
+<feMergeNode in="color2" />
+</feMerge>
+</filter>
+<pattern id="pattern0_266_4789" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_266_4789" transform="matrix(0.01 0 0 0.00772277 0 0.113861)"/>
+</pattern>
+<image id="image0_266_4789" width="100" height="100" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB40lEQVR4nO3dsWoUURhH8SVF0KeQFDEPIBZ5AmuRBKsQO7EVayFYBEkjeYs0SUDstZIQEGz1KdRS9oSBsRGSJdmQ+d/vnh8Ms2wx371zyhl2ZzNJkiRJkiRJkqTOAZvA1sTHk6nvQwzgiAz7U9+LCEFBBkYJCzLoO0pgkL6jhAbpN0pwkD6jhAfpL0oDQfqK0kiQVhwZJItBwhgkjEHCGCSMQcIYJIxBwhgkjEHCGCSMQcIYJIxBwhgkTHNB5sA34GQ8zxudUSLID+DRf7MfAz8bm1EiyC/gwSXz14DfjcwoE+TDgjUcNjKjTJCdBWvYaWRGmSAvF6zhVSMzygT5uGANnxqZUSbIYPuS+c8bm1EmyF/gPfAQWB3PB+P3Lc0oE6QHBgljkDAGCWOQMAYJY5AwBglTJsj5LfwaxHCNqZUJ8vUW9nE29SYqBfkD3FtiD/fHa0ytTJDB0yX28IwMpYJ8B1ZusP6V8WWGBKWCDPZusP535CgXZA68vsba39zxaz7dBfnnGFi/Ys0bwCl5ygZhfKj0GXgL7AIvxs9f7vCB03WVDtIig4QxSBiDhDFIGIOEMUgYg4QxSBiDhDFIGIOEMUgYg4QxSBiDVAyS8JdHW0WOzaWDSJIkSZIkSZIkzdp2AcQtNjjF1TIhAAAAAElFTkSuQmCC"/>
+</defs>
+</svg>
