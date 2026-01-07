@@ -91,7 +91,7 @@ export default function FoundersNote() {
           <div className="pt-10 border-t border-black/20">
             <div className="flex flex-col items-end gap-1">
               <p className="italic text-lg md:text-xl">
-              — yash, a curious mind
+              — yash,  <mark className="bg-pxl-yellow px-2 py-1">a curious mind</mark>
               </p>
               <p className="italic text-lg md:text-xl">
                 pxlcorp

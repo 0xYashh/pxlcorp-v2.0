@@ -97,7 +97,7 @@ export default function Contact() {
           <div className="pt-10 border-t border-black/20">
             <div className="flex flex-col items-end gap-1">
               <p className="italic text-lg md:text-xl">
-                see you around,
+              <mark className="bg-pxl-yellow px-2 py-1"> see you around,</mark>
               </p>
               <p className="italic text-lg md:text-xl">
                 pxlcorp

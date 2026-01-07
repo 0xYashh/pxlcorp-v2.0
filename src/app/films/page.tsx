@@ -74,8 +74,8 @@ export default function Films() {
               <span className="font-jersey text-white text-base md:text-lg lg:text-xl transition-colors duration-200 group-hover:text-pxl-red block mb-2">
                 {film.title}
               </span>
-              <div className="inline-block border border-dashed border-white/50 px-3 py-1.5">
-                <p className="font-jersey text-white/80 text-sm md:text-base">
+              <div className="inline-block border border-dashed border-white/50 bg-black/30 px-3 py-1.5">
+                <p className="font-jersey text-gray-300 text-sm md:text-base">
                   {film.description}
                 </p>
               </div>
