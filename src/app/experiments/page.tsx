@@ -36,25 +36,25 @@ export default function Experiments() {
       <div className="space-y-8">
         {/* Twichan experiment */}
         <div className="card-hover animate-fade-in-up delay-200">
-          {/* Twichan thumbnail */}
+          {/* Skrib thumbnail */}
           <div className="w-32 h-32 md:w-40 md:h-40 relative rounded overflow-hidden mb-4">
             <Image 
-              src="/images/twichan.png"
-              alt="twichan app"
+              src="/images/skrib banner 3.png"
+              alt="skrib app"
               fill
               className="object-cover"
             />
           </div>
           
-          {/* Project title - under construction */}
+          {/* Project title */}
           <p className="font-jersey text-pxl-red text-sm md:text-base mb-2">
-            twichan.exe (under construction)
+            skrib
           </p>
           
           {/* Project description - dashed border */}
           <div className="inline-block border border-dashed border-white/50 px-4 py-2 mt-2">
             <p className="font-jersey text-white text-sm md:text-base">
-              a text only social app.
+              a social app to share your thoughts as doodles.
             </p>
           </div>
         </div>
