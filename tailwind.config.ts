@@ -19,6 +19,8 @@ const config: Config = {
       fontFamily: {
         'bytesized': ['Bytesized', 'sans-serif'],
         'jersey': ['Jersey 10', 'sans-serif'],
+        'sans': ['var(--font-geist-sans)', 'sans-serif'],
+        'mono': ['var(--font-geist-mono)', 'monospace'],
       },
     },
   },
